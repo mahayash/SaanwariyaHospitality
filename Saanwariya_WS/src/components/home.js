@@ -13,11 +13,16 @@ const Home = () => (
           {/* <!-- Image by https://unsplash.com/@anikindimitry --> */}
           <div
             className="home_slider_background"
-            style={{ backgroundImage: `url(${home_slider})` }}
+            style={{
+              backgroundImage: `url(${require('../images/dessert_1.jpg')})`,
+            }}
           />
 
           <div className="home_slider_content text-center">
-            <div className="home_slider_content_inner">
+            <div
+              className="home_slider_content_inner"
+              
+            >
               <h1>discover</h1>
               <h1>the Kutch</h1>
               <div className="button home_slider_button">
@@ -120,7 +125,7 @@ const Home = () => (
 				</svg> */}
       </div>
 
-      <div className="home_slider_dots">
+      {/* <div className="home_slider_dots">
         <ul id="home_slider_custom_dots" className="home_slider_custom_dots">
           <li className="home_slider_custom_dot active">
             <div />01.
@@ -132,7 +137,7 @@ const Home = () => (
             <div />03.
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   </div>
 )

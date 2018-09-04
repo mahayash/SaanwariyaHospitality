@@ -8,16 +8,15 @@ const Intro = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="intro_title text-center">We have the best tours</h2>
+          <h2 className="intro_title text-center">WE HAVE THE BEST PACKAGES</h2>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-10 offset-lg-1">
           <div className="intro_text text-center">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
-              convallis tortor. Suspendisse potenti. In faucibus massa arcu,
-              vitae cursus mi hendrerit nec.{' '}
+              We have created the packages by keeping your comfort in mind. The packages includes lots 
+              of FREE stuff which will make your Kutch Tour a memorable experience.Which you will cherised throghout your life.{' '}
             </p>
           </div>
         </div>
@@ -30,10 +29,10 @@ const Intro = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${intro_2})` }}
+              style={{ backgroundImage: `url(${require("../images/1.jpeg")})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
-              <div className="intro_date">May 25th - June 01st</div>
+              <div className="intro_date">Nov 01st - Mar 01st</div>
               <div className="button intro_button">
                 <div className="button_bcg" />
                 <a href="#">
@@ -43,8 +42,8 @@ const Intro = () => (
                 </a>
               </div>
               <div className="intro_center text-center">
-                <h1>Greece</h1>
-                <div className="intro_price">From $1450</div>
+                <h1>1N / 2D packages</h1>
+                <div className="intro_price">From 3800/- onwards</div>
                 <div className="rating rating_4">
                   <i className="fa fa-star" />
                   <i className="fa fa-star" />
@@ -65,10 +64,10 @@ const Intro = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${intro_2})` }}
+              style={{ backgroundImage: `url(${require("../images/2.jpeg")})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
-              <div className="intro_date">May 25th - June 01st</div>
+            <div className="intro_date">Nov 01st - Mar 01st</div>
               <div className="button intro_button">
                 <div className="button_bcg" />
                 <a href="#">
@@ -78,8 +77,8 @@ const Intro = () => (
                 </a>
               </div>
               <div className="intro_center text-center">
-                <h1>Greece</h1>
-                <div className="intro_price">From $1450</div>
+                <h1>2N / 3D package</h1>
+                <div className="intro_price">From 7000/- onwards</div>
                 <div className="rating rating_4">
                   <i className="fa fa-star" />
                   <i className="fa fa-star" />
@@ -100,10 +99,10 @@ const Intro = () => (
             {/* <!-- Image by https://unsplash.com/@willianjusten --> */}
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${intro_2})` }}
+              style={{ backgroundImage: `url(${require("../images/3.jpeg")})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
-              <div className="intro_date">May 25th - June 01st</div>
+            <div className="intro_date">Nov 01st - Mar 01st</div>
               <div className="button intro_button">
                 <div className="button_bcg" />
                 <a href="#">
@@ -113,8 +112,8 @@ const Intro = () => (
                 </a>
               </div>
               <div className="intro_center text-center">
-                <h1>Scotland</h1>
-                <div className="intro_price">From $1450</div>
+                <h1>3N / 4D package</h1>
+                <div className="intro_price">From 10200/- onwards</div>
                 <div className="rating rating_4">
                   <i className="fa fa-star" />
                   <i className="fa fa-star" />
