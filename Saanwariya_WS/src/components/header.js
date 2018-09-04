@@ -75,7 +75,7 @@ const Header = () => (
                 </li>
               </ul>
             </div> */}
-            <div className={`${styles.user_box} ${bootstrapStyle['ml-auto']}`}>
+            {/* <div className={`${styles.user_box} ${bootstrapStyle['ml-auto']}`}>
               <div
                 className={`${styles.user_box_login} ${styles.user_box_link}`}
               >
@@ -88,7 +88,7 @@ const Header = () => (
               >
                 <a href="#">register</a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ const Header = () => (
             <div className={styles.logo_container}>
               <div className={styles.logo}>
                 <a href="#">
-                  <img src="images/logo.png" alt="" />travelix
+                  <div>Saanvariya Hospitality</div>
                 </a>
               </div>
             </div>
@@ -116,7 +116,7 @@ const Header = () => (
                 bootstrapStyle['ml-auto']
               }`}
             >
-              <ul className={bootstrapStyle.main_nav_list}>
+              <ul className={bootstrapStyle.main_nav_list} style={{width:"100%"}}>
                 <li className={styles.main_nav_item}>
                   <a href="#">home</a>
                 </li>
@@ -124,10 +124,10 @@ const Header = () => (
                   <a href="about.html">about us</a>
                 </li>
                 <li className={styles.main_nav_item}>
-                  <a href="offers.html">offers</a>
+                  <a href="about.html">Rann Utsav</a>
                 </li>
                 <li className={styles.main_nav_item}>
-                  <a href="blog.html">news</a>
+                  <a href="about.html">Gallery</a>
                 </li>
                 <li className={styles.main_nav_item}>
                   <a href="contact.html">contact</a>

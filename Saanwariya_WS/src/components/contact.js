@@ -6,7 +6,7 @@ const Contact = () => (
   <div className="contact">
     <div
       className="contact_background"
-      style={{ backgroundImage: 'url(images/contact.png)' }}
+      style={{ backgroundImage: `url(${require('../images/contact.png')})` }}
     />
     <div className="container">
       <div className="row">

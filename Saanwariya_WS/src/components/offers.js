@@ -19,7 +19,9 @@ const Offers = () => (
                 <div className="offers_image_container">
                   <div
                     className="offers_image_background"
-                    style={{ backgroundImage: 'url(images/offer_1.jpg)' }}
+                    style={{
+                      backgroundImage: `url(${require('../images/offer_1.jpg')})`,
+                    }}
                   />
                   <div className="offer_name">
                     <a href="#">grand castle</a>
@@ -76,7 +78,9 @@ const Offers = () => (
                 <div className="offers_image_container">
                   <div
                     className="offers_image_background"
-                    style={{ backgroundImage: 'url(images/offer_1.jpg)' }}
+                    style={{
+                      backgroundImage: `url(${require('../images/offer_1.jpg')})`,
+                    }}
                   />
                   <div className="offer_name">
                     <a href="#">grand castle</a>
@@ -133,7 +137,9 @@ const Offers = () => (
                 <div className="offers_image_container">
                   <div
                     className="offers_image_background"
-                    style={{ backgroundImage: 'url(images/offer_1.jpg)' }}
+                    style={{
+                      backgroundImage: `url(${require('../images/offer_1.jpg')})`,
+                    }}
                   />
                   <div className="offer_name">
                     <a href="#">grand castle</a>
@@ -190,7 +196,9 @@ const Offers = () => (
                 <div className="offers_image_container">
                   <div
                     className="offers_image_background"
-                    style={{ backgroundImage: 'url(images/offer_1.jpg)' }}
+                    style={{
+                      backgroundImage: `url(${require('../images/offer_1.jpg')})`,
+                    }}
                   />
                   <div className="offer_name">
                     <a href="#">grand castle</a>

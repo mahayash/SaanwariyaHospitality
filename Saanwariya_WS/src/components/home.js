@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/bootstrap4/bootstrap.min.css'
 import '../styles/main_styles.css'
+import home_slider from '../images/home_slider.jpg'
 
 const Home = () => (
   <div className="home">
@@ -12,7 +13,7 @@ const Home = () => (
           {/* <!-- Image by https://unsplash.com/@anikindimitry --> */}
           <div
             className="home_slider_background"
-            style={{ backgroundImage: 'url(images/home_slider.jpg)' }}
+            style={{ backgroundImage: `url(${home_slider})` }}
           />
 
           <div className="home_slider_content text-center">

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/bootstrap4/bootstrap.min.css'
 import '../styles/main_styles.css'
+import intro_2 from '../images/intro_2.jpg'
 
 const Intro = () => (
   <div className="intro">
@@ -29,7 +30,7 @@ const Intro = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: 'url(images/intro_2.jpg)' }}
+              style={{ backgroundImage: `url(${intro_2})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">May 25th - June 01st</div>
@@ -64,7 +65,7 @@ const Intro = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: 'url(images/intro_2.jpg)' }}
+              style={{ backgroundImage: `url(${intro_2})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">May 25th - June 01st</div>
@@ -99,7 +100,7 @@ const Intro = () => (
             {/* <!-- Image by https://unsplash.com/@willianjusten --> */}
             <div
               className="intro_item_background"
-              style={{ backgroundImage: 'url(images/intro_3.jpg)' }}
+              style={{ backgroundImage: `url(${intro_2})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">May 25th - June 01st</div>
