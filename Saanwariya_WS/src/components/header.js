@@ -13,8 +13,8 @@ const Header = () => (
               bootstrapStyle['flex-row']
             }`}
           >
-            <div classname={styles.phone}>+45 345 3324 56789</div>
-            <div className={styles.social}>
+            <div className={styles.phone}>+91 96383 97591</div>
+            {/* <div className={styles.social}>
               <ul className={styles.social_list}>
                 <li className={styles.social_list_item}>
                   <a href="#">
@@ -34,33 +34,58 @@ const Header = () => (
                     />
                   </a>
                 </li>
-                <li className="social_list_item">
+                <li className={styles.social_list_item}>
                   <a href="#">
-                    <i className="fa fa-twitter" aria-hidden="true" />
+                    <i
+                      className={`${bootstrapStyle.fa} ${
+                        bootstrapStyle['fa-twitter']
+                      } 
+                     ${(bootstrapStyle['aria-hidden'] = 'true')}`}
+                    />
                   </a>
                 </li>
-                <li className="social_list_item">
+                <li className={styles.social_list_item}>
                   <a href="#">
-                    <i className="fa fa-dribbble" aria-hidden="true" />
+                    <i
+                      className={`${bootstrapStyle.fa} ${
+                        bootstrapStyle['fa-dribbble']
+                      }
+                     ${(bootstrapStyle['aria-hidden'] = 'true')}`}
+                    />
                   </a>
                 </li>
-                <li className="social_list_item">
+                <li className={styles.social_list_item}>
                   <a href="#">
-                    <i className="fa fa-behance" aria-hidden="true" />
+                    <i
+                      className={`${bootstrapStyle.fa} ${
+                        bootstrapStyle['fa-behance']
+                      }
+                     ${(bootstrapStyle['aria-hidden'] = 'true')}`}
+                    />
                   </a>
                 </li>
-                <li className="social_list_item">
+                <li className={styles.social_list_item}>
                   <a href="#">
-                    <i className="fa fa-linkedin" aria-hidden="true" />
+                    <i
+                      className={`${bootstrapStyle.fa} ${
+                        bootstrapStyle['fa-linkedin']
+                      } ${(bootstrapStyle['aria-hidden'] = 'true')}`}
+                    />
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="user_box ml-auto">
-              <div className="user_box_login user_box_link">
+            </div> */}
+            <div className={`${styles.user_box} ${bootstrapStyle['ml-auto']}`}>
+              <div
+                className={`${styles.user_box_login} ${styles.user_box_link}`}
+              >
                 <a href="#">login</a>
               </div>
-              <div className={`${styles.user_box_register} ${styles.user_box_link}`}>
+              <div
+                className={`${styles.user_box_register} ${
+                  styles.user_box_link
+                }`}
+              >
                 <a href="#">register</a>
               </div>
             </div>
@@ -70,36 +95,80 @@ const Header = () => (
     </div>
 
     <nav className="main_nav">
-      <div className="container">
-        <div className="row">
-          <div className="col main_nav_col d-flex flex-row align-items-center justify-content-start">
-            <div className="logo_container">
-              <div className="logo">
+      <div className={bootstrapStyle.container}>
+        <div className={bootstrapStyle.row}>
+          <div
+            className={`${bootstrapStyle.col} ${
+              bootstrapStyle['main_nav_col']
+            } ${bootstrapStyle['d-flex']}
+           ${bootstrapStyle['flex-row']} ${bootstrapStyle['align-items-center']}
+           ${bootstrapStyle['justify-content-start']}`}
+          >
+            <div className={styles.logo_container}>
+              <div className={styles.logo}>
                 <a href="#">
                   <img src="images/logo.png" alt="" />travelix
                 </a>
               </div>
             </div>
-            <div className="main_nav_container ml-auto">
-              <ul className="main_nav_list">
-                <li className="main_nav_item">
+            <div
+              className={`${styles.main_nav_container} ${
+                bootstrapStyle['ml-auto']
+              }`}
+            >
+              <ul className={bootstrapStyle.main_nav_list}>
+                <li className={styles.main_nav_item}>
                   <a href="#">home</a>
                 </li>
-                <li className="main_nav_item">
+                <li className={styles.main_nav_item}>
                   <a href="about.html">about us</a>
                 </li>
-                <li className="main_nav_item">
+                <li className={styles.main_nav_item}>
                   <a href="offers.html">offers</a>
                 </li>
-                <li className="main_nav_item">
+                <li className={styles.main_nav_item}>
                   <a href="blog.html">news</a>
                 </li>
-                <li className="main_nav_item">
+                <li className={styles.main_nav_item}>
                   <a href="contact.html">contact</a>
                 </li>
               </ul>
             </div>
-            {/* <div className="content_search ml-lg-0 ml-auto">
+
+            <div
+              className={`${bootstrapStyle.content_search} ${
+                bootstrapStyle['ml-lg-0']
+              } 
+            ${bootstrapStyle['ml-auto']}`}
+            />
+            <div
+              id="search_form"
+              className={`${styles.search_form} ${styles.bez_1}`}
+            >
+              <input
+                type="search"
+                className={`${styles.search_content_input} ${styles.bez_1}`}
+              />
+            </div>
+
+            <div className={styles.hamburger}>
+              <i
+                className={`${bootstrapStyle.fa} ${bootstrapStyle['fa-bars']} ${
+                  styles['trans_200']
+                }`}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+)
+
+export default Header
+
+{
+  /* <div className="content_search ml-lg-0 ml-auto">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							width="17px" height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 								<g>
@@ -121,20 +190,5 @@ const Header = () => (
 									</g>
 								</g>
 							</svg>
-						</div> */}
-
-            <div id="search_form" className="search_form bez_1">
-              <input type="search" className="search_content_input bez_1" />
-            </div>
-
-            <div className="hamburger">
-              <i className="fa fa-bars trans_200" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-)
-
-export default Header
+						</div> */
+}

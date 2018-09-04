@@ -3,7 +3,7 @@ import React from 'react'
 import Container from '../components/container'
 //import styles from './about-css-modules.module.css'
 import styles from '../styles/about-css-modules.module.css'
-console.log(styles)
+
 
 export default () => (
   <Container>
