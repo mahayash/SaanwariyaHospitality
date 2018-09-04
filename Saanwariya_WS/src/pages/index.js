@@ -1,14 +1,38 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Container from '../pages/about-css-modules'
+import '../styles/bootstrap4/bootstrap.min.css'
+import '../styles/main_styles.css'
+import Home from '../components/home'
+import Search from '../components/search'
+import Intro from '../components/intro'
+import Cta from '../components/cta'
+import Offers from '../components/offers'
+import Testimonials from '../components/testimonials'
+import Contact from '../components/contact'
 
+// this is the Main page
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  
+    {/* <!-- Home --> */}
+    <Home />
+
+    {/* <!-- Search Component --> */}
+    <Search />
+
+    {/* <!-- Intro Component--> */}
+    <Intro />
+
+    {/* <!-- CTA --> */}
+    <Cta />
+
+    {/* <!-- Offers --> */}
+    <Offers />
+
+    {/* <!-- Testimonials --> */}
+    <Testimonials />
+
+    {/* <!-- Contact --> */}
+    <Contact />
   </div>
 )
 
