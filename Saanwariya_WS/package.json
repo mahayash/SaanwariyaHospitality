@@ -1,13 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "saanwariya-hospitality",
+  "description": "Saanwariya Hospitality",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "PDA <hello@panthrax.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-solid-svg-icons": "^5.3.1",
     "@fortawesome/react-fontawesome": "^0.1.2",
-    "font-awesome": "^4.7.0",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-css-modules": "^1.0.15",
@@ -30,6 +29,7 @@
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "font-awesome": "^4.7.0",
     "prettier": "^1.13.7"
   },
   "repository": {

@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/bootstrap4/bootstrap.min.css'
 import '../styles/main_styles.css'
-import home_slider from '../images/home_slider.jpg'
 
 const Home = () => (
   <div className="home">
@@ -20,9 +19,7 @@ const Home = () => (
 
           <div className="home_slider_content text-center">
             <div
-              className="home_slider_content_inner"
-              
-            >
+              className="home_slider_content_inner" >
               <h1>discover</h1>
               <h1>the Kutch</h1>
               <div className="button home_slider_button">

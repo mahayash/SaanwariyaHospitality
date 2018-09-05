@@ -13,6 +13,16 @@ class CTA extends React.Component {
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
+      responsive: [
+        {
+          breakpoint: 575,
+          settings: {
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     }
 
     return (

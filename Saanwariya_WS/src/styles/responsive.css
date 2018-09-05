@@ -339,18 +339,23 @@
 	{
 		display: none !important;
 	}
+	.home_slider_content{
+		margin-top: -10%;
+	}
+
 	.home_slider_content h1:first-child
 	{
 		font-size: 48px;
+		
 	}
 	.home_slider_content h1:nth-child(2)
 	{
     	font-size: 43px;
-    	margin-top: -12px;	
+    	margin-top: 0px;	
 	}
 	.home_slider_button
 	{
-		margin-top: 45px;
+		margin-top: 30%;
 	}
 	.home_slider_dots
 	{
@@ -398,7 +403,7 @@
 	}
 	.logo a
 	{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.logo a img
 	{
