@@ -104,7 +104,7 @@ const Header = () => (
            ${bootstrapStyle['flex-row']} ${bootstrapStyle['align-items-center']}
            ${bootstrapStyle['justify-content-start']}`}
           >
-            <div className={styles.logo_container}>
+            <div>
               <div className={styles.logo}>
                 <a href="#">
                   <div>Saanvariya Hospitality</div>
@@ -116,7 +116,10 @@ const Header = () => (
                 bootstrapStyle['ml-auto']
               }`}
             >
-              <ul className={bootstrapStyle.main_nav_list} style={{width:"100%"}}>
+              <ul
+                className={bootstrapStyle.main_nav_list}
+                style={{ width: '100%', marginBottom: '0px' }}
+              >
                 <li className={styles.main_nav_item}>
                   <a href="#">home</a>
                 </li>
