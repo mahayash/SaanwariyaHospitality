@@ -12,8 +12,7 @@ const Footer = () => (
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
               </script>{' '}
-              All rights reserved | powered
-              <i className="fa fa-heart-o" aria-hidden="true" /> by{' '}
+              All rights reserved | powered by{' '}
               <a href="http://www.panthrax.com" target="_blank">
                 PDA
               </a>

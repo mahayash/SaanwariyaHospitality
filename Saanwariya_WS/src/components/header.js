@@ -18,11 +18,11 @@ const Header = () => (
         <div className="container">
           <div className="row">
             <div className="col d-flex flex-row">
-              <div className="phone">+45 345 3324 56789</div>
-              <div className="social">
+              <div className="phone">+91 9638397591</div>
+              <div className="social ml-auto" style={{ padding: '0px' }}>
                 <ul className="social_list">
                   <li className="social_list_item">
-                    <a href="#">
+                    <a href="#" style={{ display: 'none' }}>
                       <i className="fa fa-pinterest" aria-hidden="true" />
                     </a>
                   </li>
@@ -36,19 +36,19 @@ const Header = () => (
                       <i className="fa fa-twitter" aria-hidden="true" />
                     </a>
                   </li>
-                  <li className="social_list_item">
+                  <li className="social_list_item" style={{ display: 'none' }}>
                     <a href="#">
                       <i className="fa fa-dribbble" aria-hidden="true" />
                     </a>
                   </li>
-                  <li className="social_list_item">
+                  <li className="social_list_item" style={{ display: 'none' }}>
                     <a href="#">
                       <i className="fa fa-behance" aria-hidden="true" />
                     </a>
                   </li>
                   <li className="social_list_item">
                     <a href="#">
-                      <i className="fa fa-linkedin" aria-hidden="true" />
+                      <i className="fa fa-instagram" aria-hidden="true" />
                     </a>
                   </li>
                 </ul>
@@ -66,7 +66,7 @@ const Header = () => (
             <div className="col main_nav_col d-flex flex-row align-items-center justify-content-start">
               <div className="logo_container">
                 <div className="logo">
-                  <a href="#">Saanwariya Hospitality</a>
+                  <Link to="/">Saanwariya Hospitality</Link>
                 </div>
               </div>
               <div className="main_nav_container ml-auto">
@@ -75,13 +75,13 @@ const Header = () => (
                   style={{ marginBottom: '0px', width: '100%' }}
                 >
                   <li className="main_nav_item">
-                    <a href="#">home</a>
+                    <Link to="/">home</Link>
                   </li>
                   <li className="main_nav_item">
-                    <a href="about.html">about us</a>
+                    <Link to="/aboutus">about us</Link>
                   </li>
                   <li className="main_nav_item">
-                    <a href="offers.html">Rann Utsav</a>
+                    <Link to="/aboutkutch">Rann Utsav</Link>
                   </li>
                   <li className="main_nav_item">
                     <a href="blog.html">Gallery</a>

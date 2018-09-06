@@ -5,6 +5,8 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import './index.css'
 import styles from '../styles/main_styles.module.css'
+import Link from "gatsby-link"
+
 
 const Layout = ({ children, data }) => (
   <div className={styles.super_container}>
