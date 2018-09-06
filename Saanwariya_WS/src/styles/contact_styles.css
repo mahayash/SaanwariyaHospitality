@@ -768,7 +768,7 @@ section
 .home_content
 {
 	position: absolute;
-	bottom: 106px;
+	bottom: 25px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -780,7 +780,7 @@ section
 {
 	font-size: 72px;
 	font-weight: 800;
-	color: #FFFFFF;
+	color: rebeccapurple;
 	text-transform: uppercase;
 }
 

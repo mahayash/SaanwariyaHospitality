@@ -82,7 +82,7 @@ const aboutkutch = () => (
                 <div className="button add_button">
                   <div className="button_bcg" />
                   <a href="#">
-                    explore now<span />
+                    Book now<span />
                     <span />
                     <span />
                   </a>

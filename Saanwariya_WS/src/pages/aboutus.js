@@ -91,7 +91,7 @@ const about = () => (
                 <div className="button add_button">
                   <div className="button_bcg" />
                   <a href="#">
-                    explore now<span />
+                    book now<span />
                     <span />
                     <span />
                   </a>
