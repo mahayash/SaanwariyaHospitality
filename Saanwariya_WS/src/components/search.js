@@ -15,9 +15,10 @@ const Search = () => (
           className="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start"
         >
           <div className="search_item">
-            <div>destination</div>
+            <div>phone number</div>
             <input
               type="text"
+              placeholder="+00-000-000-0000"
               className="destination search_input"
               required="required"
             />
@@ -57,13 +58,14 @@ const Search = () => (
               id="children_1"
               className="dropdown_item_select search_input"
             >
+              <option>00</option>
               <option>01</option>
               <option>02</option>
               <option>03</option>
             </select>
           </div>
           <button className="button search_button">
-            search<span />
+            Book Now<span />
             <span />
             <span />
           </button>

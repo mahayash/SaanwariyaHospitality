@@ -7,7 +7,10 @@ const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-lg-12 order-lg-1 order-2  ">
-          <div className="copyright_content d-flex flex-row align-items-center">
+          <div
+            className="copyright_content flex-row align-items-center"
+            style={{ marginTop: '20px' }}
+          >
             <div>
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
@@ -19,30 +22,6 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        {/* <div className="col-lg-9 order-lg-2 order-1">
-          <div className="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
-            <div className="footer_nav">
-              <ul className="footer_nav_list">
-                <li className="footer_nav_item">
-                  <a href="#">home</a>
-                </li>
-                <li className="footer_nav_item">
-                  <a href="about.html">about us</a>
-                </li>
-                <li className="footer_nav_item">
-                  <a href="offers.html">offers</a>
-                </li>
-                <li className="footer_nav_item">
-                  <a href="blog.html">news</a>
-                </li>
-                <li className="footer_nav_item">
-                  <a href="contact.html">contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
       </div>
     </div>
   </div>

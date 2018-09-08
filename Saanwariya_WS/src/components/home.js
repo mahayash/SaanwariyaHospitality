@@ -23,11 +23,11 @@ const Home = () => (
               <h1>the Kutch</h1>
               <div className="button home_slider_button">
                 <div className="button_bcg" />
-                <a href="#">
+                <Link to="/aboutkutch">
                   explore now<span />
                   <span />
                   <span />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -63,7 +63,7 @@ class CTA extends React.Component {
 
                     {/* <!-- CTA Slider Item --> */}
                     <div className="owl-item cta_item text-center">
-                      <div className="cta_title">Shri Swaminarayan Temple</div>
+                      <div className="cta_title">Swaminarayan Temple</div>
 
                       <p className="cta_text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
