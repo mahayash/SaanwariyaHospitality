@@ -1457,6 +1457,7 @@ section {
 }
 .test_item {
   padding-top: 36px;
+  margin: 10px;
 }
 .test_icon {
   position: absolute;
@@ -1527,6 +1528,7 @@ section {
   font-weight: 500;
   color: #ffffff;
   margin-top: 11px;
+  line-height: 1.5;
 }
 .test_slider_nav {
   position: absolute;
