@@ -1,0 +1,104 @@
+{
+  "assetsByChunkName": {
+    "path---rann-of-kutch": [
+      "path---rann-of-kutch-075060f94cb334cdc169.js",
+      "path---rann-of-kutch-075060f94cb334cdc169.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-8fa1e0179610d8324507.js",
+      "component---src-pages-index-js-8fa1e0179610d8324507.js.map"
+    ],
+    "path---": [
+      "path----cac63ff5c1b42581353c.js",
+      "path----cac63ff5c1b42581353c.js.map"
+    ],
+    "path---visit-places": [
+      "path---visit-places-a4789ee80fabc1e4c81c.js",
+      "path---visit-places-a4789ee80fabc1e4c81c.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-64f048a2570e6501aedb.js",
+      "component---src-pages-contact-js-64f048a2570e6501aedb.js.map"
+    ],
+    "path---vijaypalace": [
+      "path---vijaypalace-d2e66232a50eb85ca07a.js",
+      "path---vijaypalace-d2e66232a50eb85ca07a.js.map"
+    ],
+    "path---black-hill": [
+      "path---black-hill-390fe91c437adfebb6b7.js",
+      "path---black-hill-390fe91c437adfebb6b7.js.map"
+    ],
+    "path---aboutkutch": [
+      "path---aboutkutch-a0e39f21c11f6a62c5ab.js",
+      "path---aboutkutch-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-bcb7aafe9d2f337828d6.js",
+      "component---src-layouts-index-js-bcb7aafe9d2f337828d6.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---aboutus": [
+      "path---aboutus-a0e39f21c11f6a62c5ab.js",
+      "path---aboutus-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-68a036b9d07bc76b73a8.js",
+      "build-js-styles.css",
+      "commons-68a036b9d07bc76b73a8.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-visit-places-js": [
+      "component---src-pages-visit-places-js-c696449e271a9a45d31e.js",
+      "component---src-pages-visit-places-js-c696449e271a9a45d31e.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-aboutus-js": [
+      "component---src-pages-aboutus-js-11b109b61b048fc61d5f.js",
+      "component---src-pages-aboutus-js-11b109b61b048fc61d5f.js.map"
+    ],
+    "component---src-pages-aboutkutch-js": [
+      "component---src-pages-aboutkutch-js-5b760f117c047b51b74c.js",
+      "component---src-pages-aboutkutch-js-5b760f117c047b51b74c.js.map"
+    ],
+    "path---swaminarayan-temple": [
+      "path---swaminarayan-temple-6a41ec69fb57f9f074c6.js",
+      "path---swaminarayan-temple-6a41ec69fb57f9f074c6.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "app": [
+      "app-bcc4cc376a65474d1c0b.js",
+      "build-js-styles.css",
+      "app-bcc4cc376a65474d1c0b.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---narayansarovar": [
+      "path---narayansarovar-f30417cded8c39245ef7.js",
+      "path---narayansarovar-f30417cded8c39245ef7.js.map"
+    ]
+  }
+}
