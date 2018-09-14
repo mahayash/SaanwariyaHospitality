@@ -55,7 +55,7 @@ const Offers = () => (
                     </ul>
                   </div>
                   <div className="offers_link">
-                    <a href="offers.html">read more</a>
+                    <a href="#">read more</a>
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Offers = () => (
                     </ul>
                   </div>
                   <div className="offers_link">
-                    <a href="offers.html">read more</a>
+                    <a href="#">read more</a>
                   </div>
                 </div>
               </div>
