@@ -46,7 +46,7 @@ class PlaceToVisit extends React.Component {
           </h1>
           <div className="container">
             <div className="row">
-              {/* <!-- Place to visit Slider --> */}
+              
               <div className="col">
                 <div>
                   <Slider {...settings}>
