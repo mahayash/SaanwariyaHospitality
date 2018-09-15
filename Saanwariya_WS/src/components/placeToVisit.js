@@ -45,36 +45,31 @@ class PlaceToVisit extends React.Component {
             Places to Visit
           </h1>
           <div className="container">
-            <div className="row">
-              
-              <div className="col">
-                <div>
-                  <Slider {...settings}>
-                    {placesList.map((data, index) => (
-                      <div className="cta_item text-center" key={index}>
-                        <div className="cta_title">{data.title}</div>
-                        <img
-                          src={`${data.imageUrl}`}
-                          style={{
-                            display: 'inline',
-                            marginTop: '20px',
-                            height: '250px',
-                          }}
-                        />
+            <div>
+              <Slider {...settings}>
+                {placesList.map((data, index) => (
+                  <div className="cta_item text-center" key={index}>
+                    <div className="cta_title">{data.title}</div>
+                    <img
+                      src={`${data.imageUrl}`}
+                      style={{
+                        display: 'inline',
+                        marginTop: '20px',
+                        height: '250px',
+                      }}
+                    />
 
-                        <div className="button cta_button">
-                          <div className="button_bcg" />
-                          <Link to={data.link}>
-                            Read More<span />
-                            <span />
-                            <span />
-                          </Link>
-                        </div>
-                      </div>
-                    ))}
-                  </Slider>
-                </div>
-              </div>
+                    <div className="button cta_button">
+                      <div className="button_bcg" />
+                      <Link to={data.link}>
+                        Read More<span />
+                        <span />
+                        <span />
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
             </div>
           </div>
         </div>
