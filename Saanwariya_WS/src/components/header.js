@@ -114,7 +114,7 @@ const Header = () => (
         </div>
         <div className="logo menu_logo">
           <a href="#">
-            <img src="images/logo.png" alt="" />
+            {/* <img src="images/logo.png" alt="" /> */}
           </a>
         </div>
         <ul>

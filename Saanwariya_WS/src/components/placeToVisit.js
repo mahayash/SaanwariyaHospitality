@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import Link from 'gatsby-link'
 import placesList from '../../content/ListOfVisitPlaces.json'
 
-class CTA extends React.Component {
+class PlaceToVisit extends React.Component {
   render() {
     var settings = {
       dots: true,
@@ -80,7 +80,7 @@ class CTA extends React.Component {
   }
 }
 
-export default CTA
+export default PlaceToVisit
 
 {
   /* <div className="owl-item cta_item text-center">
