@@ -5,8 +5,8 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import './index.css'
 import styles from '../styles/main_styles.module.css'
-import Link from "gatsby-link"
-
+import Link from 'gatsby-link'
+import favicon from '../images/favicon.png'
 
 const Layout = ({ children, data }) => (
   <div className={styles.super_container}>
@@ -16,10 +16,11 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
+
     <Header siteTitle={data.site.siteMetadata.title} />
     <div>{children()}</div>
-
     {/* Footer */}
     <Footer />
   </div>

@@ -27,6 +27,9 @@ export default ({ data }) => {
       height: 250px;
     `
     const imgCardStyle = { width: '450px', height: '250px', marginTop: '27px' }
+    const paragraph = styled.p`
+      color: black;
+    `
 
     return (
       <div className="container">
@@ -39,24 +42,42 @@ export default ({ data }) => {
           <div style={{ background: '#fa9e1b' }}>
             <Slider {...settings}>
               <card>
-                <img src={require('../images/X1.jpg')} style={imgCardStyle} />
+                <img
+                  src={'http://rannutsav.com/images/zoom/1.jpg'}
+                  style={imgCardStyle}
+                />
               </card>
               <card>
-                <img src={require('../images/X2.jpg')} style={imgCardStyle} />
+                <img
+                  src={'http://rannutsav.com/images/zoom/2.jpg'}
+                  style={imgCardStyle}
+                />
               </card>
               <card>
-                <img src={require('../images/X3.jpg')} style={imgCardStyle} />
+                <img
+                  src={'http://rannutsav.com/images/zoom/3.jpg'}
+                  style={imgCardStyle}
+                />
               </card>
               <card>
-                <img src={require('../images/X4.jpg')} style={imgCardStyle} />
+                <img
+                  src={'http://rannutsav.com/images/zoom/4.jpg'}
+                  style={imgCardStyle}
+                />
               </card>
               <card>
-                <img src={require('../images/X6.jpg')} style={imgCardStyle} />
+                <img
+                  src={'http://rannutsav.com/images/zoom/5.jpg'}
+                  style={imgCardStyle}
+                />
               </card>
             </Slider>
           </div>
-          <div>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div style={{ marginTop: '25px', color: 'black' }}>
+            <div
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              className="formattedmd"
+            />
           </div>
           <Link to="/">Back to Home</Link>
           <br />
