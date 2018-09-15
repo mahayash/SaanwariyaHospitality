@@ -42,7 +42,7 @@ class Testimonial extends React.Component {
                 <div className="owl-carousel owl-theme test_slider">
                   <Slider {...settings}>
                     {testimonial.map((data, index) => (
-                      <div className="owl-item" key={index}>
+                      <div key={index}>
                         <div className="test_item">
                           <div className="test_image">
                             <img
@@ -84,65 +84,3 @@ class Testimonial extends React.Component {
 
 export default Testimonial
 
-{
-  /* <div className="owl-item">
-                      <div className="test_item">
-                        <div className="test_image">
-                          <img
-                            src={require('../images/test_2.jpg')}
-                            alt="https://unsplash.com/@tschax"
-                          />
-                        </div>
-                        <div className="test_icon">
-                          <img src={require('../images/island_t.png')} alt="" />
-                        </div>
-                        <div className="test_content_container">
-                          <div className="test_content">
-                            <div className="test_item_info">
-                              <div className="test_name">carla smith</div>
-                              <div className="test_date">May 24, 2017</div>
-                            </div>
-                            <div className="test_quote_title">
-                              " Best holliday ever "
-                            </div>
-                            <p className="test_quote_text">
-                              Nullam eu convallis tortor. Suspendisse potenti.
-                              In faucibus massa arcu, vitae cursus mi hendrerit
-                              nec.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="owl-item">
-                      <div className="test_item">
-                        <div className="test_image">
-                          <img
-                            src={require('../images/test_3.jpg')}
-                            alt="https://unsplash.com/@seefromthesky"
-                          />
-                        </div>
-                        <div className="test_icon">
-                          <img src={require('../images/kayak.png')} alt="" />
-                        </div>
-                        <div className="test_content_container">
-                          <div className="test_content">
-                            <div className="test_item_info">
-                              <div className="test_name">carla smith</div>
-                              <div className="test_date">May 24, 2017</div>
-                            </div>
-                            <div className="test_quote_title">
-                              " Best holliday ever "
-                            </div>
-                            <p className="test_quote_text">
-                              Nullam eu convallis tortor. Suspendisse potenti.
-                              In faucibus massa arcu, vitae cursus mi hendrerit
-                              nec.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   */
-}

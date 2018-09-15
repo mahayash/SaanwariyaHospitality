@@ -9,7 +9,7 @@ const Home = () => (
     <div className="home_slider_container">
       <div className="owl-carousel owl-theme home_slider">
         {/* <!-- Slider Item Component--> */}
-        <div className="owl-item home_slider_item">
+        <div className="home_slider_item">
           <div
             className="home_slider_background"
             style={{

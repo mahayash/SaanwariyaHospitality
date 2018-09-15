@@ -21,7 +21,15 @@ class PlaceToVisit extends React.Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows : false
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
           },
         },
       ],
@@ -38,16 +46,13 @@ class PlaceToVisit extends React.Component {
           </h1>
           <div className="container">
             <div className="row">
-              {/* <!-- CTA Slider --> */}
+              {/* <!-- Place to visit Slider --> */}
               <div className="col">
                 <div className="cta_slider_container">
                   <div className="owl-carousel owl-theme cta_slider">
                     <Slider {...settings}>
                       {placesList.map((data, index) => (
-                        <div
-                          className="owl-item cta_item text-center"
-                          key={index}
-                        >
+                        <div className="cta_item text-center" key={index}>
                           <div className="cta_title">{data.title}</div>
                           <img
                             src={`${data.imageUrl}`}
@@ -81,85 +86,3 @@ class PlaceToVisit extends React.Component {
 }
 
 export default PlaceToVisit
-
-{
-  /* <div className="owl-item cta_item text-center">
-                      <div className="cta_title">Swaminarayan Temple</div>
-
-                      <p className="cta_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                      <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <a href="#">
-                          Read More<span />
-                          <span />
-                          <span />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="owl-item cta_item text-center">
-                      <div className="cta_title">Mandvi Beach</div>
-                      <p className="cta_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam eu convallis tortor. Suspendisse potenti. In
-                      </p>
-                      <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <a href="#">
-                          Read More<span />
-                          <span />
-                          <span />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="owl-item cta_item text-center">
-                      <div className="cta_title">White Rann</div>
-
-                      <p className="cta_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam eu convallis tortor. Suspendisse potenti. In
-                      </p>
-                      <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <a href="#">
-                          Read More<span />
-                          <span />
-                          <span />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="owl-item cta_item text-center">
-                      <div className="cta_title">Black Hill</div>
-
-                      <p className="cta_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam eu convallis tortor. Suspendisse potenti. In
-                      </p>
-                      <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <a href="#">
-                          Read More<span />
-                          <span />
-                          <span />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="owl-item cta_item text-center">
-                      <div className="cta_title">Narayan Sarovar</div>
-                      <p className="cta_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam eu convallis tortor. Suspendisse potenti. In
-                      </p>
-                      <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <a href="#">
-                          Read More<span />
-                          <span />
-                          <span />
-                        </a>
-                      </div>
-                    </div>
-                  */
-}
