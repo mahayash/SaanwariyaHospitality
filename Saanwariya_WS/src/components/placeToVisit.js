@@ -48,8 +48,8 @@ class PlaceToVisit extends React.Component {
             <div className="row">
               {/* <!-- Place to visit Slider --> */}
               <div className="col">
-                <div className="cta_slider_container">
-                  {/* <Slider {...settings}>
+                <div>
+                  <Slider {...settings}>
                     {placesList.map((data, index) => (
                       <div className="cta_item text-center" key={index}>
                         <div className="cta_title">{data.title}</div>
@@ -72,7 +72,7 @@ class PlaceToVisit extends React.Component {
                         </div>
                       </div>
                     ))}
-                  </Slider> */}
+                  </Slider>
                 </div>
               </div>
             </div>
