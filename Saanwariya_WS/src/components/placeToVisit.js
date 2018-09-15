@@ -47,8 +47,8 @@ class PlaceToVisit extends React.Component {
           <div className="container">
             <div>
               <Slider {...settings}>
-                <div>
-                  {placesList.map((data, index) => (
+                {placesList.map((data, index) => (
+                  <div>
                     <div className="cta_item text-center" key={index}>
                       <div className="cta_title">{data.title}</div>
                       <img
@@ -69,8 +69,8 @@ class PlaceToVisit extends React.Component {
                         </Link>
                       </div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </Slider>
             </div>
           </div>
