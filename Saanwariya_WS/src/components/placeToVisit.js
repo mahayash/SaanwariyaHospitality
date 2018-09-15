@@ -49,32 +49,30 @@ class PlaceToVisit extends React.Component {
               {/* <!-- Place to visit Slider --> */}
               <div className="col">
                 <div className="cta_slider_container">
-                  <div className="owl-carousel owl-theme cta_slider">
-                    <Slider {...settings}>
-                      {placesList.map((data, index) => (
-                        <div className="cta_item text-center" key={index}>
-                          <div className="cta_title">{data.title}</div>
-                          <img
-                            src={`${data.imageUrl}`}
-                            style={{
-                              display: 'inline',
-                              marginTop: '20px',
-                              height: '250px',
-                            }}
-                          />
+                  {/* <Slider {...settings}>
+                    {placesList.map((data, index) => (
+                      <div className="cta_item text-center" key={index}>
+                        <div className="cta_title">{data.title}</div>
+                        <img
+                          src={`${data.imageUrl}`}
+                          style={{
+                            display: 'inline',
+                            marginTop: '20px',
+                            height: '250px',
+                          }}
+                        />
 
-                          <div className="button cta_button">
-                            <div className="button_bcg" />
-                            <Link to={data.link}>
-                              Read More<span />
-                              <span />
-                              <span />
-                            </Link>
-                          </div>
+                        <div className="button cta_button">
+                          <div className="button_bcg" />
+                          <Link to={data.link}>
+                            Read More<span />
+                            <span />
+                            <span />
+                          </Link>
                         </div>
-                      ))}
-                    </Slider>
-                  </div>
+                      </div>
+                    ))}
+                  </Slider> */}
                 </div>
               </div>
             </div>
