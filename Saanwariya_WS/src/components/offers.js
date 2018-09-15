@@ -35,25 +35,35 @@ const Offers = () => (
                   </div>
                   <p className="offers_text">
                     The price is for twin sharing basis and including all meals.
-                    Get the feel of staying traditional mud houses with
-                    latest facilities
+                    Get the feel of staying traditional mud houses with latest
+                    facilities
                   </p>
-                  <div className="offers_icons">
+                  {/* <div className="offers_icons">
                     <ul className="offers_icons_list">
                       <li className="offers_icons_item">
-                        <img src="images/post.png" alt="" />
+                        <img src={`${require('../images/post.png')}`} alt="" />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/compass.png" alt="" />
+                        <img
+                          src={`${require('../images/compass.png')}`}
+                          alt=""
+                        />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/bicycle.png" alt="" />
+                        <img
+                          src={`${require('../images/bicycle.png')}`}
+                          alt=""
+                        />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/sailboat.png" alt="" />
+                        <img
+                          src={`${require('../images/sailboat.png')}`}
+                          alt=""
+                        />
                       </li>
                     </ul>
                   </div>
+                   */}
                   <div className="offers_link">
                     <a href="#">read more</a>
                   </div>
@@ -85,12 +95,13 @@ const Offers = () => (
                   <div className="offers_price">
                     5000<span>per night</span>
                   </div>
-                  
+
                   <p className="offers_text">
                     The price is on twin sharing basis and including all meals.
-                    Get the feel of staying in swizz cottage tents with comfortable facilities.
+                    Get the feel of staying in swizz cottage tents with
+                    comfortable facilities.
                   </p>
-                  <div className="offers_icons">
+                  {/* <div className="offers_icons">
                     <ul className="offers_icons_list">
                       <li className="offers_icons_item">
                         <img src="images/post.png" alt="" />
@@ -106,6 +117,7 @@ const Offers = () => (
                       </li>
                     </ul>
                   </div>
+                  */}
                   <div className="offers_link">
                     <a href="#">read more</a>
                   </div>
