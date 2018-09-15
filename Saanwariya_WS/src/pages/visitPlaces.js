@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Slider from 'react-slick'
-import styled from 'styled-components'
-import X1 from '../images/X1.jpg'
+import '../styles/main_styles.css'
+import '../styles/responsive.css'
+import '../styles/bootstrap4/bootstrap.min.css'
 
 export default ({ data }) => {
   if (data != undefined) {
@@ -11,56 +12,83 @@ export default ({ data }) => {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
-      slidesToScroll: 1,
       autoplaySpeed: 3000,
       autoplay: true,
       centerMode: true,
       easing: 'linear',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     }
-    const card = styled.div`
-      margin-top: 20px;
-    `
-    const imgCard = styled.img`
-      width: 450px;
-      margintop: 25px;
-      height: 250px;
-    `
-    const imgCardStyle = { width: '450px', height: '250px', marginTop: '27px' }
-    const paragraph = styled.p`
-      color: black;
-    `
+
+    const imgCardStyle = {
+      marginTop: '27px',
+      padding: '10px',
+    }
+
+    // const visitTitle = {
+    //   marginTop: '200px',
+    // }
 
     return (
       <div className="container">
         <div>
           <div className="row">
-            <div className="col" style={{ marginTop: '200px' }}>
-              <h1 style={{ color: '#212121' }}>{post.frontmatter.title}</h1>
+            <div className="col">
+              <h1 className="visitTitle">{post.frontmatter.title}</h1>
             </div>
           </div>
           <div style={{ background: '#fa9e1b' }}>
             <Slider {...settings}>
               <card>
                 <img
+                  className="img-responsive"
                   src={'http://rannutsav.com/images/zoom/1.jpg'}
                   style={imgCardStyle}
                 />
               </card>
               <card>
                 <img
+                  className="img-responsive"
                   src={'http://rannutsav.com/images/zoom/2.jpg'}
                   style={imgCardStyle}
                 />
               </card>
               <card>
                 <img
+                  className="img-responsive"
                   src={'http://rannutsav.com/images/zoom/3.jpg'}
                   style={imgCardStyle}
                 />
               </card>
               <card>
                 <img
+                  className="img-responsive"
                   src={'http://rannutsav.com/images/zoom/4.jpg'}
                   style={imgCardStyle}
                 />

@@ -1212,7 +1212,7 @@ section {
   padding-left: 80px;
   padding-right: 80px;
   background: #ffffff;
-  border-right: #1b0b32
+  border-right: #1b0b32;
 }
 .cta_title {
   font-size: 30px;
@@ -1970,3 +1970,7 @@ section {
 
 /* *********************** RESPONSIVE CSS *********************************** */
 
+.visitTitle {
+  color: black;
+  margin-top: 200px;
+}
