@@ -5,7 +5,7 @@ import '../styles/main_styles.css'
 import Home from '../components/home'
 import Search from '../components/search'
 import Intro from '../components/intro'
-import Cta from '../components/cta'
+import PlaceToVisit from '../components/placeToVisit'
 import Offers from '../components/offers'
 import Testimonials from '../components/testimonials'
 import Contact from '../components/contact'
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <Intro />
 
     {/* <!-- CTA --> */}
-    <Cta />
+    <PlaceToVisit />
 
     {/* <!-- Offers --> */}
     <Offers />

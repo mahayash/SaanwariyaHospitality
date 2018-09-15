@@ -14,14 +14,14 @@ class CTA extends React.Component {
       speed: 500,
       infinite: true,
       slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 575,
+          breakpoint: 480,
           settings: {
-            infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows : false
           },
         },
       ],
