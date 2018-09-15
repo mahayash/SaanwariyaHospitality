@@ -47,28 +47,30 @@ class PlaceToVisit extends React.Component {
           <div className="container">
             <div>
               <Slider {...settings}>
-                {placesList.map((data, index) => (
-                  <div className="cta_item text-center" key={index}>
-                    <div className="cta_title">{data.title}</div>
-                    <img
-                      src={`${data.imageUrl}`}
-                      style={{
-                        display: 'inline',
-                        marginTop: '20px',
-                        height: '250px',
-                      }}
-                    />
+                <div>
+                  {placesList.map((data, index) => (
+                    <div className="cta_item text-center" key={index}>
+                      <div className="cta_title">{data.title}</div>
+                      <img
+                        src={`${data.imageUrl}`}
+                        style={{
+                          display: 'inline',
+                          marginTop: '20px',
+                          height: '250px',
+                        }}
+                      />
 
-                    <div className="button cta_button">
-                      <div className="button_bcg" />
-                      <Link to={data.link}>
-                        Read More<span />
-                        <span />
-                        <span />
-                      </Link>
+                      <div className="button cta_button">
+                        <div className="button_bcg" />
+                        <Link to={data.link}>
+                          Read More<span />
+                          <span />
+                          <span />
+                        </Link>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </Slider>
             </div>
           </div>
