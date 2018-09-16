@@ -5,7 +5,6 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import './index.css'
 import styles from '../styles/main_styles.module.css'
-import Link from 'gatsby-link'
 import favicon from '../images/favicon.png'
 
 const Layout = ({ children, data }) => (
