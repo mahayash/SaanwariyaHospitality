@@ -1,11 +1,11 @@
-import React from 'react'
-import '../styles/bootstrap4/bootstrap.min.css'
-import '../styles/main_styles.css'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick-theme.css'
-import 'slick-carousel/slick/slick.css'
-import Link from 'gatsby-link'
-import placesList from '../../content/ListOfVisitPlaces.json'
+import React from "react";
+// import "../styles/bootstrap4/bootstrap.min.css";
+// import "../styles/main_styles.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import { Link } from "react-router-dom";
+import placesList from "../content/ListOfVisitPlaces.json";
 
 class PlaceToVisit extends React.Component {
   render() {
@@ -21,26 +21,30 @@ class PlaceToVisit extends React.Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false,
-          },
+            arrows: false
+          }
         },
         {
           breakpoint: 640,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false,
-          },
-        },
-      ],
-    }
+            arrows: false
+          }
+        }
+      ]
+    };
 
     return (
       <div>
         <div className="cta">
           <h1
             className="text-center"
-            style={{ color: 'white', textTransform: 'uppercase' }}
+            style={{
+              color: "white",
+              textTransform: "uppercase",
+              fontWeight: "700"
+            }}
           >
             Places to Visit
           </h1>
@@ -48,22 +52,23 @@ class PlaceToVisit extends React.Component {
             <div>
               <Slider {...settings}>
                 {placesList.map((data, index) => (
-                  <div>
-                    <div className="cta_item text-center" key={index}>
+                  <div key={index}>
+                    <div className="cta_item text-center">
                       <div className="cta_title">{data.title}</div>
                       <img
                         src={`${data.imageUrl}`}
                         style={{
-                          display: 'inline',
-                          marginTop: '20px',
-                          height: '250px',
+                          display: "inline",
+                          marginTop: "20px",
+                          height: "250px"
                         }}
                       />
 
                       <div className="button cta_button">
                         <div className="button_bcg" />
                         <Link to={data.link}>
-                          Read More<span />
+                          Read More
+                          <span />
                           <span />
                           <span />
                         </Link>
@@ -76,8 +81,8 @@ class PlaceToVisit extends React.Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default PlaceToVisit
+export default PlaceToVisit;

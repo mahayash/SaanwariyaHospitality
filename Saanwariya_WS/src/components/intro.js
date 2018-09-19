@@ -1,7 +1,6 @@
 import React from 'react'
-import '../styles/bootstrap4/bootstrap.min.css'
-import '../styles/main_styles.css'
-import intro_2 from '../images/intro_2.jpg'
+// import '../styles/bootstrap4/bootstrap.min.css'
+// import '../styles/main_styles.css'
 
 const Intro = () => (
   <div className="intro">
